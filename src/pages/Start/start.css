@@ -64,6 +64,16 @@
   }
 }
 
+@media (max-width: 375px) {
+  .startBtn {
+    width: 100%;
+    right: 0;
+    bottom: 6px;
+    left: 0;
+    margin: 0 auto;
+  }
+}
+
 .userPlus {
   width: 24px;
   height: 24px;

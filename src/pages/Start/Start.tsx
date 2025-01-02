@@ -324,8 +324,10 @@ function Start({
             disabled={selectedPlayers.length < 2}
             type="secondary"
             handleClick={() => {
-              addUnselectedUserListToLs(unselectedPlayers);
-              playSound(START_SOUND_PATH);
+              if (selectedPlayers.length >= 2) {
+                addUnselectedUserListToLs(unselectedPlayers);
+                playSound(START_SOUND_PATH);
+              }
             }}
           />
         </div>

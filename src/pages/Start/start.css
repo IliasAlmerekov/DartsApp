@@ -46,6 +46,24 @@
   width: 300px;
 }
 
+@media (max-width: 768px) {
+  .startBtn {
+    width: 200px;
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .startBtn {
+    width: 100%;
+    right: 0;
+    bottom: 8px;
+    left: 0;
+    margin: 0 auto;
+  }
+}
+
 .userPlus {
   width: 24px;
   height: 24px;
